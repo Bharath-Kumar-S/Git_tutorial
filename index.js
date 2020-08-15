@@ -1,6 +1,6 @@
-const getData = () =>{
+const getData = async() =>{
 
-    return new Promise((resolve,reject)=>{
+    return new Promise(async(resolve,reject)=>{
         resolve(false);
     })
 
